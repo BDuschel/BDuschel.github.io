@@ -56,8 +56,8 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget>
           child: FadeTransition(
           opacity: _animation,
             child: Padding(
-              padding: EdgeInsets.all(10.0),
-              child: new Image.asset('assets/rodhead.png', scale: 700),
+              padding: EdgeInsets.all(8.0),
+              child: new Image.asset('assets/rodhead.png'),
             ),
           ),
         )
